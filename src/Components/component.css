@@ -1,0 +1,24 @@
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+  padding: 30px 40px;
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+.header-text {
+  text-decoration: none;
+  color: #373737;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.header-text.active {
+  color: #5cd3a8;
+}

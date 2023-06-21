@@ -1,0 +1,178 @@
+/* HOME PAGE */
+.home-header {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+
+  text-align: center;
+
+  margin: 0 auto;
+  padding: 50px 0px;
+}
+
+/* TWEETS PAGE */
+.tweets-block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+
+  margin: 0;
+  padding: 30px 50px;
+}
+
+.tweet-card {
+  list-style: none;
+  position: relative;
+
+  width: 380px;
+  height: 460px;
+
+  background: linear-gradient(
+    114.99deg,
+    #471ca9 -0.99%,
+    #5736a3 54.28%,
+    #4b2a99 78.99%
+  );
+  box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
+  border-radius: 20px;
+
+  text-align: center;
+}
+
+.svg-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+  display: inline-block;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: rgba(255, 255, 255, 0.3);
+
+  z-index: 5;
+}
+
+.placeholder {
+  position: absolute;
+  top: 28px;
+  left: 36px;
+
+  width: 308px;
+  height: 168px;
+
+  background: url("/src/img/picture2.png");
+  background-repeat: no-repeat;
+}
+
+.avatar {
+  position: relative;
+  width: 65px;
+  height: 65px;
+
+  border-radius: 50px;
+  margin-top: 170px;
+  z-index: 1;
+}
+
+.tweet-card::before {
+  content: "";
+  position: absolute;
+  top: 163px;
+  left: 145px;
+
+  width: 85px;
+  height: 80px;
+
+  background-repeat: no-repeat;
+  background: url("/src/img/Ellipse\ 1\ \(Stroke\).png");
+  z-index: 2;
+}
+
+.tweet-card::after {
+  content: "";
+  position: absolute;
+  top: 200px;
+  left: 0px;
+
+  width: -webkit-fill-available;
+  height: 80px;
+
+  background: url("/src/img/Rectangle\ 1.png");
+  background-repeat: no-repeat;
+}
+
+.card-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+
+  color: #ebd8ff;
+
+  margin: 0;
+  padding: 10px 0px;
+}
+
+.card-text:first-child {
+  margin-top: 20px;
+}
+
+.follow-button {
+  cursor: pointer;
+  width: 196px;
+  height: 50px;
+
+  padding: 14px 28px;
+  margin-top: 5px;
+
+  background: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+  border-radius: 10.3108px;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-transform: uppercase;
+
+  color: #373737;
+}
+
+.follow-button.follow {
+  background-color: #5cd3a8;
+}
+
+.load-button {
+  cursor: pointer;
+
+  width: 196px;
+  height: 50px;
+  margin: 0 auto;
+  display: block;
+
+  padding: 14px 28px;
+  margin-top: 5px;
+
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: #ebd8ff;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-transform: uppercase;
+
+  color: #373737;
+}
